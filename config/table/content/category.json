@@ -1,0 +1,36 @@
+{
+  "id" : "200",
+  "tablename" : "category",
+  "tablenameAdmin" : "Категория",
+
+  "field" : {
+
+    "id" : {
+      "type" : "integer",
+      "name" : "Id",
+      "adminview": true
+    },
+
+    "title" : {
+      "type" : "character varying",
+      "name" : "Заголовок",
+      "adminview": true,
+      "mainview": true
+    },
+
+    "created" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата создания",
+      "adminview": true
+    },
+
+    "updated" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата изменения"
+    }
+
+  },
+
+  "hasmany": ["product"]
+
+}

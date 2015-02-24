@@ -1,0 +1,21 @@
+<div class='adminForm' data-action='/admin/deliverMessage' data-table='{{tablename}}' data-messageaction='create' data-redirect='{{redirect}}'>
+
+    {{html}}
+
+    <div class='adminBtn'> Сохранить </div>
+</div>
+
+<form action="/upload" enctype="multipart/form-data" method="post" id="forma">
+    <input type="text" name="title"><br>
+    <input type="file" name="upload" multiple="multiple"><br>
+    <input type="submit" value="Upload">
+    </form>
+<script>
+    var formElement = document.getElementById("forma");
+    Event.add(formElement,'submit',function(e){
+        e.preventDefault();
+        var request = new XMLHttpRequest();
+        request.open("POST", "/admin/fileUpload");
+        request.send(new FormData(formElement));
+    });
+</script>

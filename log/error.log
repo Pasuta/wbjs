@@ -1,0 +1,196 @@
+[4.2 10:55:16] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/_adminHeader'
+[4.2 23:0:40] TypeError: undefined is not a function
+[4.2 23:1:1] TypeError: undefined is not a function
+[4.2 23:1:27] TypeError: undefined is not a function
+[4.2 23:1:31] TypeError: undefined is not a function
+[4.2 23:1:32] TypeError: undefined is not a function
+[6.2 19:16:23] TypeError: undefined is not a function
+[6.2 19:16:42] TypeError: undefined is not a function
+[6.2 19:17:0] TypeError: undefined is not a function
+[6.2 20:6:32] TypeError: Cannot read property 'variables' of undefined
+[6.2 20:6:32] TypeError: Cannot read property 'variables' of undefined
+[6.2 20:6:56] TypeError: Cannot read property 'variables' of undefined
+[6.2 20:6:56] TypeError: Cannot read property 'variables' of undefined
+[6.2 20:6:57] TypeError: Cannot read property 'variables' of undefined
+[6.2 20:6:57] TypeError: Cannot read property 'variables' of undefined
+[6.2 20:23:5] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:5] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:5] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:5] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:6] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:6] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:6] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:23:6] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:22] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:23] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:23] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:23] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:23] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:54] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:54] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:54] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:24:54] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:12] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:12] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:12] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:12] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:39] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:40] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:40] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:25:40] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:36:34] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:34] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:34] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:34] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:35] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:35] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:35] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:36:35] TypeError: Cannot set property 'widgetCompleteHtml' of undefined
+[6.2 20:37:1] TypeError: Cannot call method 'bind' of undefined
+[6.2 20:37:1] TypeError: Cannot call method 'bind' of undefined
+[6.2 20:37:1] TypeError: Cannot call method 'bind' of undefined
+[6.2 20:37:1] TypeError: Cannot call method 'bind' of undefined
+[6.2 20:37:55] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:37:55] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:37:55] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[6.2 20:37:55] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/undefined/view.html'
+[8.2 9:55:33] Error: EISDIR, illegal operation on a directory
+[8.2 9:55:33] Error: EISDIR, illegal operation on a directory
+[8.2 10:12:32] Error: EISDIR, illegal operation on a directory
+[8.2 10:13:8] Error: EISDIR, illegal operation on a directory
+[8.2 10:15:49] Error: EISDIR, illegal operation on a directory
+[8.2 10:26:48] Error: EISDIR, illegal operation on a directory
+[8.2 10:26:50] Error: EISDIR, illegal operation on a directory
+[8.2 10:27:18] Error: EISDIR, illegal operation on a directory
+[8.2 10:28:8] Error: EISDIR, illegal operation on a directory
+[8.2 10:28:52] Error: EISDIR, illegal operation on a directory
+[8.2 10:29:11] Error: EISDIR, illegal operation on a directory
+[8.2 10:29:48] Error: EISDIR, illegal operation on a directory
+[8.2 10:31:4] Error: EISDIR, illegal operation on a directory
+[8.2 10:31:16] Error: EISDIR, illegal operation on a directory
+[8.2 10:31:31] Error: EISDIR, illegal operation on a directory
+[8.2 10:32:6] Error: EISDIR, illegal operation on a directory
+[8.2 10:32:38] Error: EISDIR, illegal operation on a directory
+[8.2 10:33:11] Error: EISDIR, illegal operation on a directory
+[8.2 10:33:43] Error: EISDIR, illegal operation on a directory
+[8.2 10:34:5] Error: EISDIR, illegal operation on a directory
+[8.2 10:35:49] Error: EISDIR, illegal operation on a directory
+[8.2 10:36:13] Error: EISDIR, illegal operation on a directory
+[8.2 10:36:36] Error: EISDIR, illegal operation on a directory
+[8.2 10:38:3] Error: EISDIR, illegal operation on a directory
+[8.2 10:39:26] Error: EISDIR, illegal operation on a directory
+[8.2 10:39:29] Error: EISDIR, illegal operation on a directory
+[8.2 10:40:41] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:1] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:7] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:7] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:8] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:18] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:19] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:19] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:19] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:21] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:24] Error: EISDIR, illegal operation on a directory
+[8.2 10:41:24] Error: EISDIR, illegal operation on a directory
+[8.2 10:42:6] Error: EISDIR, illegal operation on a directory
+[8.2 10:42:7] Error: EISDIR, illegal operation on a directory
+[8.2 10:42:56] Error: EISDIR, illegal operation on a directory
+[8.2 10:43:26] Error: EISDIR, illegal operation on a directory
+[8.2 10:43:37] Error: EISDIR, illegal operation on a directory
+[10.2 20:20:20] TypeError: Cannot read property 'product' of undefined
+[10.2 20:20:21] TypeError: Cannot read property 'product' of undefined
+[10.2 20:20:25] TypeError: Cannot read property 'product' of undefined
+[10.2 20:20:37] TypeError: Cannot read property 'product' of undefined
+[10.2 20:20:54] TypeError: Cannot read property 'product' of undefined
+[10.2 20:21:13] TypeError: Cannot read property 'product' of undefined
+[10.2 20:21:31] TypeError: Cannot read property 'product' of undefined
+[10.2 20:21:40] TypeError: Cannot read property 'product' of undefined
+[10.2 20:21:57] TypeError: Cannot read property 'product' of undefined
+[10.2 20:22:19] TypeError: Cannot read property 'product' of undefined
+[10.2 20:22:21] TypeError: Cannot read property 'product' of undefined
+[10.2 20:23:9] TypeError: Cannot read property 'product' of undefined
+[10.2 20:23:37] TypeError: Cannot read property 'product' of undefined
+[10.2 20:23:45] TypeError: Cannot read property 'product' of undefined
+[10.2 20:23:50] TypeError: Cannot read property 'product' of undefined
+[10.2 20:24:12] TypeError: Cannot read property 'product' of undefined
+[10.2 20:24:40] TypeError: Cannot read property 'product' of undefined
+[13.2 18:36:35] ReferenceError: tablemode is not defined
+[13.2 18:36:41] ReferenceError: tablemode is not defined
+[15.2 20:22:49] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminHeader'
+[15.2 20:22:49] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminAside'
+[15.2 20:22:49] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminFooter'
+[15.2 20:22:49] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminContentHeader'
+[15.2 20:23:4] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminHeader'
+[15.2 20:23:4] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminAside'
+[15.2 20:23:4] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminFooter'
+[15.2 20:23:4] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget_adminContentHeader'
+[15.2 20:35:55] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/_adminHeader/_adminHeader'
+[15.2 20:35:55] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/_adminAside/_adminAside'
+[15.2 20:35:55] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/_adminContentHeader/_adminContentHeader'
+[15.2 20:35:55] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/framework/../../widget/_adminTableView/_adminTableView'
+[15.2 20:39:17] AssertionError: path must be a string
+[15.2 20:39:17] AssertionError: path must be a string
+[15.2 20:39:17] AssertionError: path must be a string
+[15.2 20:39:17] AssertionError: path must be a string
+[15.2 20:39:29] AssertionError: path must be a string
+[15.2 20:39:29] AssertionError: path must be a string
+[15.2 20:39:29] AssertionError: path must be a string
+[15.2 20:39:29] AssertionError: path must be a string
+[15.2 20:39:58] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminHeader'
+[15.2 20:39:58] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminAside'
+[15.2 20:39:58] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminContentHeader'
+[15.2 20:39:58] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminTableView'
+[15.2 20:40:8] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminHeader'
+[15.2 20:40:8] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminAside'
+[15.2 20:40:8] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminContentHeader'
+[15.2 20:40:8] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminTableView'
+[15.2 20:40:18] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminHeader'
+[15.2 20:40:18] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminAside'
+[15.2 20:40:18] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminContentHeader'
+[15.2 20:40:18] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminTableView'
+[15.2 20:40:33] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminHeader'
+[15.2 20:40:33] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminAside'
+[15.2 20:40:33] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminContentHeader'
+[15.2 20:40:33] Error: Cannot find module '/Users/vitaliy/Sites/wbjs/core/../core/widget/_adminTableView'
+[15.2 20:41:2] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:41:26] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:42:5] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:42:42] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:43:37] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:44:4] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:44:15] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:44:50] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:46:19] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:46:48] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:47:18] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:47:18] ReferenceError: html is not defined
+[15.2 20:47:52] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/widget/_adminAside/../../config/table'
+[15.2 20:48:12] ReferenceError: html is not defined
+[15.2 20:49:25] ReferenceError: html is not defined
+[15.2 20:53:33] ReferenceError: template is not defined
+[15.2 20:54:24] TypeError: Cannot read property 'Template' of undefined
+[15.2 20:58:27] TypeError: Cannot call method 'bind' of undefined
+[15.2 20:59:4] TypeError: Cannot call method 'bind' of undefined
+[15.2 21:2:8] ReferenceError: obj is not defined
+[15.2 21:3:2] TypeError: object is not a function
+[15.2 21:7:11] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:7:12] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:9:12] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:9:26] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:9:59] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:10:22] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:10:47] TypeError: Cannot read property 'variables' of undefined
+[15.2 21:14:19] ReferenceError: obj is not defined
+[15.2 21:43:11] Error: ENOENT, no such file or directory 'undefinedinteger.html'
+[15.2 21:43:34] Error: ENOENT, no such file or directory 'undefinedinteger.html'
+[15.2 21:43:46] Error: ENOENT, no such file or directory 'undefinedinteger.html'
+[15.2 21:45:46] Error: ENOENT, no such file or directory 'undefinedinteger.html'
+[24.2 10:35:52] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget/_Header'
+[24.2 10:36:20] Error: ENOENT, no such file or directory '/Users/vitaliy/Sites/wbjs/core/../core/widget/_Header'

@@ -1,0 +1,66 @@
+select column_name, data_type, character_maximum_length
+from INFORMATION_SCHEMA.COLUMNS where table_name = '<name of table>';
+
+-- получить описание таблицы без индексов и зависимостей
+
+select * from pg_indexes where tablename = 'product';
+
+-- получить индексы таблицы
+
+SELECT
+    tc.constraint_name, tc.table_name, kcu.column_name,
+    ccu.table_name AS foreign_table_name,
+    ccu.column_name AS foreign_column_name
+FROM
+    information_schema.table_constraints AS tc
+    JOIN information_schema.key_column_usage AS kcu
+      ON tc.constraint_name = kcu.constraint_name
+    JOIN information_schema.constraint_column_usage AS ccu
+      ON ccu.constraint_name = tc.constraint_name
+WHERE constraint_type = 'FOREIGN KEY' AND tc.table_name='product';
+
+-- получить внешние зависисости
+
+
+pg.connect(con, function(err, client, done) {
+    if(err) return console.error('error fetching client from pool', err);
+    client.query("select column_name, data_type from INFORMATION_SCHEMA.COLUMNS where table_name = 'product';", function(err, result) {
+        done();
+        if(err) return console.error('error running query', err);
+        pg.end();
+        //console.log(result.rows);
+    });
+});
+
+pg.connect(con, function(err, client, done) {
+    if(err) return console.error('error fetching client from pool', err);
+    client.query("select * from pg_indexes where tablename = 'product';", function(err, result) {
+        done();
+        if(err) return console.error('error running query', err);
+        pg.end();
+        //console.log(result.rows);
+    });
+});
+
+pg.connect(con, function(err, client, done) {
+    if(err) return console.error('error fetching client from pool', err);
+
+    var str = "SELECT\
+    tc.constraint_name, tc.table_name, kcu.column_name,\
+        ccu.table_name AS foreign_table_name,\
+        ccu.column_name AS foreign_column_name\
+    FROM\
+    information_schema.table_constraints AS tc\
+    JOIN information_schema.key_column_usage AS kcu\
+    ON tc.constraint_name = kcu.constraint_name\
+    JOIN information_schema.constraint_column_usage AS ccu\
+    ON ccu.constraint_name = tc.constraint_name\
+    WHERE constraint_type = 'FOREIGN KEY' AND tc.table_name='product';";
+
+    client.query(str, function(err, result) {
+        done();
+        if(err) return console.error('error running query', err);
+        pg.end();
+        //console.log(result.rows);
+    });
+});

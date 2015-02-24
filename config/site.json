@@ -1,0 +1,22 @@
+{
+  "SITE": {
+    "name": "www.whitebride.com.ua"
+  },
+
+  "MAIL": {
+    "apiKey": "483886442b3301f5896804a56d1b3727",
+    "secretKey": "8cd6cbd93743f62608896d2f8936dfbc"
+  },
+
+  "SERVER" : {
+    "port" : 8899
+  },
+
+  "ENV" : "development",
+
+  "ADMIN" : {
+    "login" : "ad",
+    "password" : "ad"
+  }
+
+}

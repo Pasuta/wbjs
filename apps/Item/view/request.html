@@ -1,0 +1,21 @@
+<div style="background: red;" id="s">
+    {{x}}
+</div><br>
+
+<div>
+    {{y}}
+</div>
+
+<div>
+    {{widget::News}}
+</div>
+
+<div>
+    {{widget::Hot}}
+</div>
+
+<script>
+    Event.add(document.getElementById('s'), 'click', function(){
+        ajax('/item/loadCatalog', {'data':123}).then(function(x){console.log(x);});
+    });
+</script>

@@ -1,0 +1,22 @@
+<table class="adminDBTable" cellspacing="0">
+    <thead>
+        {{thead}}
+    </thead>
+
+    <tbody>
+        {{tbody}}
+    </tbody>
+</table>
+
+<script>
+    (function(){
+        var linkRow = document.getElementsByClassName('linkRow');
+        for(var i = 0, len = linkRow.length; i<len; i++){
+            Event.add(linkRow[i], 'click', function(){
+                var tablename = this.getAttribute('data-table');
+                var id = this.getAttribute('data-id');
+                window.location.href = '/admin/recordload/' + tablename + '?id=' + id;
+            });
+        }
+    })();
+</script>

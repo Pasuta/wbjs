@@ -1,0 +1,24 @@
+<form id="enter">
+    <input type="text" name="login" placeholder="login" class="login"><br>
+    <input type="password" name="password" placeholder="password" class="password"><br>
+    <input type="submit" value="OK">
+    <p>Введите логин и пароль для входа в админпанель!</p>
+</form>
+
+<script>
+    var form = document.getElementById('enter');
+    var p = form.querySelectorAll('p')[0];
+    form.onsubmit = function(e){
+        e.preventDefault();
+        var m = {};
+        m.login = form.getElementsByClassName('login')[0].value;
+        m.password = form.getElementsByClassName('password')[0].value;
+        console.log(m);
+        ajax('/admin/ajaxLogin', m).then(afterSubmit);
+    };
+
+    function afterSubmit(msg){
+        p.innerHTML = msg.message;
+        if(msg.status == 'OK') window.location.href = '/admin';
+    }
+</script>

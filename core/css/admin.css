@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Open_Sans';
+    src: url(/core/font/Open_Sans/OpenSans-Light.ttf);
+}
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open_Sans', sans-serif;
+}
+header{
+    background: black;
+    width: 100%;
+    height: 5%;
+    position: relative;
+
+}
+.siteName a{
+    color: white;
+    float: left;
+    /*background: blue;*/
+    height: 100%;
+    line-height: 200%;
+    margin-left: 1%;
+}
+.settings{
+    float: right;
+    height: 100%;
+    width: 33px;
+    /*padding: 5px;*/
+    background: url(/core/img/appbar.settings.png) 50% 50% no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-right: 7px;
+    /*position: relative;*/
+}
+.settings:hover{
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.dropMenu{
+    position: absolute;
+    top:100%;
+    left: 86%;
+    width: 12%;
+    padding: 1%;
+    background: white;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    border-radius: 0 0 0 7px;
+    line-height: 2;
+    /*display: none;*/
+}
+.dropMenu a{
+    color: darkblue;
+    text-decoration: none;
+}
+.dropMenu a:hover{
+    color: deeppink;
+}
+.adminQuit {
+    color: black !important;
+}
+.adminQuit:hover{
+    font-weight: bold;
+}
+aside{
+    background: #F8F8F8;
+    /*border-right: 1px solid gray;*/
+    float: left;
+    width: 25%;
+    min-height: 90%;
+}
+.asideHeader{
+    /*border-bottom: 5px solid gray;*/
+}
+.contentHeader{
+    background: orange;
+    /*background: red;*/
+    height: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2;
+}
+.contentHeaderPageName, .contentHeaderSort{
+    float: left;
+}
+.contentHeaderChange, .contentHeaderSearch{
+    float: right;
+}
+.contentHeaderSort{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.contentHeaderSearch input{
+    padding: 3px 5px 3px 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+    border: 1px solid gray;
+}
+
+.tab1, .tab2, .tab3, .tab4{
+    float: left;
+    width: 25%;
+    height: 5%;
+    cursor: pointer;
+    /*background: gray;*/
+    background-size: contain;
+}
+.tab1{
+    background:gray url(/core/img/appbar.globe.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab1:hover, .tab1Active{
+    background:#C1392B url(/core/img/appbar.globe.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab2{
+    background:gray url(/core/img/appbar.graph.line.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab2:hover, .tab2Active{
+    background:#2ECC71 url(/core/img/appbar.graph.line.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab3{
+    background:gray url(/core/img/appbar.lines.horizontal.4.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab3:hover, .tab3Active{
+    background:#3498DB url(/core/img/appbar.lines.horizontal.4.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab4{
+    background:gray url(/core/img/appbar.symbol.braces.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.tab4:hover, .tab4Active{
+    background:#E67F2A url(/core/img/appbar.symbol.braces.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+.asideContent{
+    position: relative;
+    /*height: 95%;*/
+}
+.asideContenttab1, .asideContenttab2, .asideContenttab3, .asideContenttab4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.asideContenttab1{
+    /*background: red;*/
+}
+.asideContenttab2{
+    /*background: green;*/
+    display: none;
+}
+.asideContenttab3{
+    /*background: orange;*/
+    display: none;
+}
+.asideContenttab4{
+    /*background: blue;*/
+    display: none;
+}
+main{
+    background: white;
+    width: 75%;
+    min-height: 90%;
+    float: left;
+}
+footer{
+    width: 100%;
+    background: black;
+    height: 5%;
+    /*color:white;*/
+    text-align: right;
+    font-size: 12px;
+}
+footer p{
+    /*margin: 4px;*/
+    padding: 5px;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+
+.turquoese{
+    background-color: turquoise;
+}
+.emerald{
+    background-color:#2ECC71;
+}
+.peterriver{
+    background-color: #3498DB;
+}
+.amethyst{
+    background-color: #9B59B6;
+}
+.wetasphalt{
+    background-color: #34495E;
+}
+.greensea{
+    background-color: #0EA186;
+}
+.nephritis{
+    background-color: #20AF65;
+}
+.wisteria{
+    background-color:#8E44AD ;
+}
+.midnightblue{
+    background-color: #2C3E50;
+}
+.concrete{
+    background-color: #95A5A6;
+}
+.asbestos{
+    background-color: #7F8C8D;
+}
+.clouds{
+    background-color: #ECF0F1;
+}
+.silver{
+    background-color: #BDC3C7;
+}
+.alizarin{
+    background-color: #E84C3C;
+}
+.pomegranate{
+    background-color: #C1392B;
+}
+.carrot{
+    background-color: #E67F2A;
+}
+.pumpkin{
+    background-color: #D3540A;
+}
+.animated {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.adminDBTable{
+    font-size: 14px;
+}
+.adminDBTable thead{
+    background: #E8E8E8;
+}
+.adminDBTable thead td{
+    border-left: 1px solid white;
+}
+.adminDBTable thead td:last-child{
+    /*background: red;*/
+    width: 100%
+}
+.adminDBTable td{
+    padding: 5px;
+}
+
+.adminDBTable tbody tr{
+    cursor: pointer;
+}
+.adminDBTable tbody tr:hover{
+    background: #F8F8F8;
+}
+.adminDBTable tbody td{
+    border-bottom: 1px solid gray;
+}
+
+.adminField{
+    /*background: red;*/
+    /*border-bottom: 1px solid silver;*/
+    /*border-top: 1px solid silver;*/
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.adminBtn{
+    padding: 5px;
+    cursor: pointer;
+    background: darkorange;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    min-width: 100px;
+    margin: 10px;
+}
+.adminFieldInfo{
+    /*margin-bottom: 5px;*/
+}
+.adminFieldInput{
+    margin-top: 10px;
+}
+.adminFieldInput input, .adminFieldInput textarea{
+    padding: 5px;
+    border: 1px solid silver;
+}
+.adminFieldInput textarea{
+    width: 100%;
+}
+.integerAF{}
+.integerAF input{
+    width: 80px;
+}
+.boolAF{}
+.varcharAF{}
+.varcharAF input{
+    width: 100%;
+}
+.realAF{}
+.realAF input:last-child{
+    width: 25px;
+}
+.textAF{}
+.timestampAF{}
+.photoAF{
+    font-size: 10px;
+    border: 1px dotted silver;
+    width: 48%;
+}
+.photoAF:nth-child(odd){
+    float: left;
+    margin-left: 10px;
+}
+.photoAF:nth-child(even){
+    float: right;
+    margin-right: 10px;
+}
+.photoAFdesc ul{
+    margin-bottom: 5px;
+    margin-left: -20px;
+}
+.photoAFdesc input:nth-child(3){
+    width: 33px;
+}
+.photoAFdesc input{
+
+    padding: 5px;
+    border: 1px solid silver;
+    margin-bottom: 5px;
+}
+.photoAFphoto{
+    width: 150px;
+    height: 150px;
+    background: url(/img/2.png) 50% 50% no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    float: left;
+}
+.photoAFdesc{
+    float: left;
+    /*border: 1px dotted black;*/
+    padding: 5px;
+    height: 140px;
+}
+.photoBtn{
+    float: left;
+    background: red;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.photoBtn:hover{
+    color: wheat;
+}
+.photoBtnSave{
+    background: #2ECC71;
+    color: white;
+}
+.photoBtnDel{
+    background: #C1392B;
+    color: white;
+}
+.adminFieldPicture{
+    margin-top: 10px;
+    background: red;
+
+}
+.hide{
+    display: none;
+}

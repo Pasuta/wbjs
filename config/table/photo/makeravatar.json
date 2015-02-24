@@ -1,0 +1,35 @@
+{
+  "id" : "500",
+  "tablename" : "makeravatar",
+  "tablenameAdmin" : "Аватары производителей",
+
+  "field" : {
+
+    "id" : {
+      "type" : "integer",
+      "name" : "Id",
+      "adminview": true
+    },
+
+    "path" : {
+      "type" : "character varying",
+      "name" : "Путь к файлу"
+    },
+
+    "created" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата создания",
+      "adminview": true
+    },
+
+    "updated" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата изменения"
+    }
+
+  },
+
+  "belongsto": ["product"]
+
+
+}

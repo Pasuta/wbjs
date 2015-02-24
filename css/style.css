@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Open_Sans';
+    src: url(/core/font/Open_Sans/OpenSans-Light.ttf);
+}
+body{
+    font-family: 'Open_Sans', sans-serif;
+    font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6,form,body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+.mainCatalogBtn{
+    text-align: center;
+}
+.blogLink{}
+.catalogLink div{
+    padding-left: 10px;
+    top:10px;
+    position: relative;
+}
+.blogLink div{
+    padding-left: 10px;
+    top:170px;
+    position: relative;
+}
+.blogText{
+    line-height: 1.7em;
+}
+.headerLinks{}
+/*.headerLinks a:hover{*/
+    /*color: darkslategray;*/
+/*}*/
+.headerLinks a{
+    display: inline-block;
+    margin-left: 20px;
+}
+.search{
+
+}
+.search input[type=text]{
+    border: 1px solid silver;
+    display: block;
+    float: left;
+    padding: 3px;
+    width: 190px;
+}
+.search input[type=submit]{
+    float: left;
+    display: block;
+    background: silver;
+    border: 0;
+    padding: 4px;
+    cursor: pointer;
+}
+.socLinks{
+    float: right;
+}
+.socLinks a{
+    background: blue;
+    border-radius: 50px;
+    padding: 0 3px;
+    color: white;
+}
+.mainPopular{
+
+}
+.mainPopularSlider{
+    background: red;
+}
+.mainPopularSlider div:nth-child(1),.mainPopularSlider div:nth-child(3) {
+    background: orange;
+    width: 5%;
+    cursor: pointer;
+}
+.mainPopularSliderContent{
+    width: 90%;
+    background: gold;
+}
+.mainPopularSlider div{}
+.mainPopularSlider div{
+    float: left;
+    height: 90%;
+}
+.mainBlogLinks{
+
+}
+.mainBlogLinks a{
+    display: block;
+    margin-top: 10px;
+}
+.mainBlogLinks a div:nth-child(2){
+    float: right;
+}
+.mainBlogLinks a div:nth-child(1){
+    float: left;
+}

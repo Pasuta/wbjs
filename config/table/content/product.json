@@ -1,0 +1,55 @@
+{
+  "id" : "100",
+  "tablename" : "product",
+  "tablenameAdmin" : "Товар",
+
+  "field" : {
+
+    "id" : {
+      "type" : "integer",
+      "name" : "Id",
+      "adminview": true
+    },
+
+    "inorder" : {
+      "type" : "boolean",
+      "name" : "В наличии",
+      "adminview": true
+    },
+
+    "title" : {
+      "type" : "character varying",
+      "name" : "Заголовок",
+      "adminview": true,
+      "mainview": true
+    },
+
+    "price" : {
+      "type" : "real",
+      "name" : "Цена",
+      "adminview": true
+    },
+
+    "text" : {
+      "type" : "text",
+      "name" : "Текст"
+    },
+
+    "created" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата создания",
+      "adminview": true
+    },
+
+    "updated" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата изменения"
+    }
+
+  },
+
+  "belongsto": ["category", "user"],
+  "hasmany": ["photo", "makeravatar"]
+
+
+}

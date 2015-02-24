@@ -1,0 +1,40 @@
+{
+  "id" : "300",
+  "tablename" : "user",
+  "tablenameAdmin" : "Пользователь",
+
+  "field" : {
+
+    "id" : {
+      "type" : "integer",
+      "name" : "Id"
+    },
+
+    "firstname" : {
+      "type" : "character varying",
+      "name" : "Имя"
+    },
+
+    "lastname" : {
+      "type" : "character varying",
+      "name" : "Фамилия"
+    },
+
+    "email" : {
+      "type" : "character varying",
+      "name" : "email"
+    },
+
+    "created" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата создания"
+    },
+
+    "updated" : {
+      "type" : "timestamp without time zone",
+      "name" : "Дата изменения"
+    }
+
+  }
+
+}
