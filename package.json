@@ -18,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/Pasuta/wbjs/issues"
   },
-  "homepage": "https://github.com/Pasuta/wbjs"
+  "homepage": "https://github.com/Pasuta/wbjs",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "colors": "^1.0.3",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "jsdom": "^4.0.1",
+    "pg": "^4.3.0",
+    "promise": "^6.1.0",
+    "querystring": "^0.2.0",
+    "sesh": "^0.1.0",
+    "url": "^0.10.2",
+    "util": "^0.10.3"
+  }
 }
