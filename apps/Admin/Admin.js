@@ -15,6 +15,7 @@ function Admin(){
         app.setType('web');
         app.layout('admin');
 
+        app.view('request');
         //var m = new Message();
         //m.action = 'update';
         //m.table = 'product';

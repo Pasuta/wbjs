@@ -1,1 +1,1 @@
-web: supervisor core/index.js
+web: node core/index.js
