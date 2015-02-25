@@ -9,7 +9,7 @@
   },
 
   "SERVER" : {
-    "port" : 8899
+    "port" : 5000
   },
 
   "ENV" : "development",

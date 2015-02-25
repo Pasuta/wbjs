@@ -1,1 +1,1 @@
-web: node --harmony core/index.js
+web: supervisor core/index.js
